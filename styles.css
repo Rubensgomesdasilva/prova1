@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* Container centralizado e estilizado */
 .container {
     max-width: 500px;
     margin: 60px auto;
@@ -24,7 +23,6 @@ body {
     text-align: center;
 }
 
-/* Título estilizado */
 h1 {
     margin-bottom: 20px;
     font-size: 24px;
@@ -32,7 +30,6 @@ h1 {
     font-weight: bold;
 }
 
-/* Formulário */
 #item-form {
     display: flex;
     flex-direction: column;
@@ -50,13 +47,11 @@ h1 {
     transition: border-color 0.3s;
 }
 
-/* Efeito no foco do input */
 #item-form input[type="text"]:focus {
     border-color: #50fa7b; 
     outline: none;
 }
 
-/* Botões de ação */
 #item-form button {
     padding: 12px;
     font-size: 16px;
@@ -66,42 +61,35 @@ h1 {
     transition: background-color 0.3s, transform 0.2s;
 }
 
-/* Botão principal - Adicionar/Atualizar */
 #btn-save {
     background-color: brown;
     color: #282a36;
 }
 
-/* Efeito hover no botão de salvar */
 #btn-save:hover {
     background-color: #3be56f;
     transform: translateY(-2px);
 }
 
-/* Botão de cancelar */
 #btn-cancel {
     background-color: #ff5555;
     color: #f8f8f2;
 }
 
-/* Efeito hover no botão de cancelar */
 #btn-cancel:hover {
     background-color: pink;
     transform: translateY(-2px);
 }
 
-/* Botão de cancelar oculto */
 #btn-cancel.hidden {
     display: none;
 }
 
-/* Lista de itens */
 #item-list {
     list-style: none;
     padding: 0;
 }
 
-/* Estilo dos itens na lista */
 #item-list li {
     display: flex;
     justify-content: space-between;
@@ -113,13 +101,11 @@ h1 {
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-/* Efeito hover nos itens da lista */
 #item-list li:hover {
     background-color: #6b7b9b;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Nome do item */
 .item-name {
     flex-grow: 1;
     text-align: left;
@@ -127,7 +113,6 @@ h1 {
     color: #f8f8f2;
 }
 
-/* Estilo dos botões de ação nos itens */
 .item-actions button {
     margin-left: 5px;
     padding: 8px 12px;
@@ -138,25 +123,21 @@ h1 {
     transition: background-color 0.3s, transform 0.2s;
 }
 
-/* Botão de editar (laranja) */
 .btn-edit {
-    background-color: #ffb86c; /* Laranja Dracula */
+    background-color: #ffb86c;
     color: #282a36;
 }
 
-/* Hover no botão de editar */
 .btn-edit:hover {
     background-color: #ffa653;
     transform: translateY(-2px);
 }
 
-/* Botão de excluir (vermelho) */
 .btn-delete {
-    background-color: #ff5555; /* Vermelho Dracula */
+    background-color: #ff5555;
     color: #f8f8f2;
 }
 
-/* Hover no botão de excluir */
 .btn-delete:hover {
     background-color: #ff4444;
     transform: translateY(-2px);
